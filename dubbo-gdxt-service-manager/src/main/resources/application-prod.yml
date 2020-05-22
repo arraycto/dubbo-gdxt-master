@@ -1,0 +1,85 @@
+### 生产环境
+server:
+  port: 80
+spring:
+  application:
+    name: manager
+  ## 数据库数据源配置
+  datasource:
+    database-mysql:
+      type: com.alibaba.druid.pool.DruidDataSource
+      jdbc-url: jdbc:mysql://xxx.xxx.xxx.xxx:3306/manager?useUnicode=true&characterEncoding=utf8&serverTimezone=UTC
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      username: root
+      password: root
+  data:
+    ## ElasticSearch配置
+    elasticsearch:
+      cluster-name: docker-cluster  # 集群名称
+      cluster-nodes: xxx.xxx.xxx.xxx:9300  # 集群地址(集群逗号分隔)
+  ## redis配置
+  redis:
+    database: 1  # Redis数据库索引（默认为0）
+    host: xxx.xxx.xxx.xxx
+    port: 6379
+    password: root
+  #    jedis:
+  #      pool:
+  #        max-wait: -1  # 连接池最大阻塞等待时间（使用负值表示没有限制）
+  #        max-idle: 1000  # 连接池中的最大空闲连接
+  #        min-idle: 100  # 连接池中的最小空闲连接
+  #    ## 集群环境打开
+  #    cluster:
+  #      max-redirects: 1000  # 默认值是5 一般当此值设置过大时，容易报错
+  #      nodes:
+  #      - 127.0.0.1:6379
+  #      - xxx.xxx.xxx.xxx:xxxx
+  rabbitmq:
+    ## 生产端
+    addresses: xxx.xxx.xxx.xxx:5672
+    username: guest
+    password: guest
+    virtual-host: /
+    connection-timeout: 15000
+    publisher-confirms: true  # 消息确认模式-实现一个监听器用于监听Broker端给我们返回的确认请求
+    publisher-returns: true  # 消息返回模式-保证消息对Broker端是可达的, 若出现路由键不可达的情况, 用监听器对不可达消息后续处理
+    template:
+      mandatory: true  # 再发送消息的时候堆template进行配置mandatory=true
+    ## 消费端
+    listener:
+      simple:
+        acknowledge-mode: manual  # 手动签收
+        concurrency: 5  # 初始化监听大小
+        max-concurrency: 10  # 最大监听大小
+
+## Dubbo
+dubbo:
+  # 配置服务信息
+  application:
+    name: dubbo-provider
+    # 禁用QOS同一台机器可能会有端口冲突现象
+    qos-enable: false
+    qos-accept-foreign-ip: false
+  # 配置注册中心
+  registry:
+    address: nacos://xxx.xxx.xxx.xxx:8848
+  # 设置协议-协议由提供方指定消费方被动接受
+  protocol:
+    name: dubbo
+    port: 20881
+
+# Nacos动态配置
+nacos:
+  config:
+    server-addr: xxx.xxx.xxx.xxx:8848
+
+## Mybatis
+mybatis:
+  mapper-locations: classpath:mybatis/mybatis-mysql/*.xml
+  config-location: classpath:mybatis/mybatis-config.xml  # 配置文件路径
+
+## Log
+logging:
+  config: classpath:logback-spring.xml
+  file:
+    path: ./

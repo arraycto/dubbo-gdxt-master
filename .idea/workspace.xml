@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2c9a7f9b-39b3-42b7-aa3c-b97ddd4159f4" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\maven\mavenrepo" />
+        <option name="mavenHome" value="D:/maven/apache-maven-3.5.3" />
+        <option name="userSettingsFile" value="D:\maven\apache-maven-3.5.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1c9Mouv5uXLXflH0noGCw89Hxm4" />
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Code\gdxt_project\dubbo-gdxt-master" />
+      <recent name="D:\Code\gdxt_project\dubbo-gdxt-master\dubbo-gdxt-bean\src\main\java\com\iqilu\bean" />
+      <recent name="D:\Code\gdxt_project\dubbo-gdxt-master\dubbo-gdxt-api\src\main\java\com\iqilu" />
+      <recent name="D:\Code\gdxt_project\dubbo-gdxt-master\dubbo-gdxt-api\src\main\java\com\iqilu\rabbit" />
+      <recent name="D:\Code\gdxt_project\dubbo-gdxt-master\dubbo-gdxt-api\src\main\resources\data" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.iqilu.dao.esdao" />
+      <recent name="com.iqilu.dao.mysqldao" />
+      <recent name="com.iqilu.bean.ddo" />
+      <recent name="com.iqilu.tools" />
+      <recent name="com.iqilu.utils" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Code\gdxt_project\dubbo-gdxt-master\dubbo-gdxt-api\src\main\resources" />
+      <recent name="D:\Code\gdxt_project\dubbo-gdxt-master\dubbo-gdxt-api\src\main\resources\shell" />
+      <recent name="D:\Code\gdxt_project\dubbo-gdxt-master\dubbo-gdxt-common\src\main\java\com\iqilu" />
+      <recent name="D:\Code\gdxt_project\dubbo-gdxt-master\dubbo-gdxt-service-manager\src\main\resources\mybatis\mybatis-mysql" />
+      <recent name="D:\Code\gdxt_project\dubbo-gdxt-master\dubbo-gdxt-service-manager\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ManagerApplication">
+    <configuration name="BaseTest.testCase" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="dubbo-gdxt-service-manager" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.iqilu.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.iqilu" />
+      <option name="MAIN_CLASS_NAME" value="com.iqilu.BaseTest" />
+      <option name="METHOD_NAME" value="testCase" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConnectBaseTest.testCase" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="dubbo-gdxt-service-manager" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.iqilu.common.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.iqilu.common" />
+      <option name="MAIN_CLASS_NAME" value="com.iqilu.common.ConnectBaseTest" />
+      <option name="METHOD_NAME" value="testCase" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ManagerApplicationTest.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="dubbo-gdxt-service-manager" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.iqilu.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.iqilu" />
+      <option name="MAIN_CLASS_NAME" value="com.iqilu.ManagerApplicationTest" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ManagerApplicationTest.testCase" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="dubbo-gdxt-service-manager" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.iqilu.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.iqilu" />
+      <option name="MAIN_CLASS_NAME" value="com.iqilu.ManagerApplicationTest" />
+      <option name="METHOD_NAME" value="testCase" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ManagerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="false" temporary="true" nameIsGenerated="true">
+      <module name="dubbo-gdxt-service-manager" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.iqilu.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.iqilu.ManagerApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ManagerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="dubbo-gdxt-service-manager" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.iqilu.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.iqilu.ManagerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.ManagerApplication" />
+      <item itemvalue="JUnit.ManagerApplicationTest.testCase" />
+      <item itemvalue="JUnit.BaseTest.testCase" />
+      <item itemvalue="JUnit.ConnectBaseTest.testCase" />
+      <item itemvalue="JUnit.ManagerApplicationTest.contextLoads" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.ManagerApplication" />
+        <item itemvalue="JUnit.ManagerApplicationTest.contextLoads" />
+        <item itemvalue="JUnit.ConnectBaseTest.testCase" />
+        <item itemvalue="JUnit.BaseTest.testCase" />
+        <item itemvalue="JUnit.ManagerApplicationTest.testCase" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2c9a7f9b-39b3-42b7-aa3c-b97ddd4159f4" name="Default Changelist" comment="" />
+      <created>1589936533035</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1589936533035</updated>
+      <workItem from="1589936535496" duration="4658000" />
+      <workItem from="1589941234078" duration="8938000" />
+      <workItem from="1589951632688" duration="9475000" />
+      <workItem from="1589961325902" duration="40700000" />
+      <workItem from="1590112261169" duration="1195000" />
+      <workItem from="1590113798150" duration="21027000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/auth0/java-jwt/3.4.0/java-jwt-3.4.0.jar!/com/auth0/jwt/JWTVerifier.class</url>
+          <line>41</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
