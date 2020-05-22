@@ -7,7 +7,7 @@
 ### 如何运行?
   1. 拉取代码
   2. 修改application-prod.yml中的配置信息, 修改application.properties中由dev改成prod(dev在这未上传,涉及私密.)
-  3. 运行sql脚本
-  4. 启动成功..
+  3. 运行sql脚本(周一上传..)
+  4. 启动成功.
   
   
