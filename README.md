@@ -10,6 +10,7 @@
  * es 操作.
  * redis 操作.
  * token + jwt 鉴权.
+ * druid 监控.
  * lombak等..
 
 ### 如何运行?
