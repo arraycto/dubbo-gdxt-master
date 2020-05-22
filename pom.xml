@@ -32,7 +32,7 @@
         <fastjson.version>1.2.47</fastjson.version>
         <jwt.version>3.4.0</jwt.version>
         <jjwt.version>0.9.1</jjwt.version>
-        <fileupload.version>1.3.1</fileupload.version>
+        <fileupload.version>1.3.3</fileupload.version>
         <junit.version>4.12</junit.version>
         <pagehelper.version>1.2.4</pagehelper.version>
         <druid.version>1.1.9</druid.version>
